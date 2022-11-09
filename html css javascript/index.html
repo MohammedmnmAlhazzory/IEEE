@@ -1,0 +1,86 @@
+<html> 
+
+<head>
+<title>
+    نتائج كلية الكهرباء
+</title>
+<style>
+
+body{
+    background-color: rgba(0,50,150,0.6);
+    margin: 0%;
+}
+.di1{
+    background-color: rgba(0,50,150,0.7);
+    height: 100px;
+    width: 50%;     
+    margin: auto;    
+}
+table{
+    height: auto;
+    border: 2px solid rgb(0, 60, 160);
+    background-color: rgba(0,50,150,0.6);
+    width: 50%;
+}
+#myselect:hover{
+    border-radius: 50%;
+   transition: 0.3s;
+   }
+   #myselect:not(hover){
+   border-radius: 0%;
+   transition: 0.3s;
+   }
+   #btnm:hover{
+    font-size:20px;
+ width:100px;
+ padding:3px;
+ border:1px solid orange;
+ border-radius:7px;
+ outline:none;
+ transition:all 0.5s;
+
+
+   }
+   #btnm:not(hover){
+    transition: 1s;
+    
+   }
+   
+   
+td{text-align: center;border:1px solid rgba(0,50,150,0.6);margin: 0%;height: 40px;}
+
+</style>
+<script src="myfile.js">
+   
+</script>
+</head>
+
+
+<body >
+ <center>   <div class="di1">    <h1 style="text-align:center;">كلية الهندسة الكهربائية والالكتروتية</h1>
+
+  <input type="button" id="btnm" value="ارسال البيانات" onclick="onclk()" >
+  
+  <input type="text" id="txt">
+  <label style="color:white ;">القسم</label>
+  <select id="myselect">
+    <option>سنة اولى</option>
+    <option>سنة ثانية</option>
+    <option>سنة ثالثة</option>
+    <option>سنة رابعة</option>
+    <option>سنة خامسة</option>
+  </select>
+  <label style="color:white;">الرقم الجامعي</label>
+    </div></center>
+    <div>
+        <center><div id="hed1"></div></center>
+    </div>
+    
+    <div class="di2"></div>
+    
+
+    </div>
+</body>
+
+
+</html>
